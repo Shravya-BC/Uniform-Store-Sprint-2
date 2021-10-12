@@ -1,0 +1,142 @@
+{
+  "id": "5697beb1-1dec-4ff0-a7db-649508a71030",
+  "version": "2.0",
+  "name": "ShippingList",
+  "url": "http://uniformm1.upskills.in",
+  "tests": [{
+    "id": "65f1de64-c4fb-4e7f-8fb0-d0389179b4a4",
+    "name": "ShippingLogin",
+    "commands": [{
+      "id": "74d91701-d786-4743-92e9-f2d1352c3518",
+      "comment": "",
+      "command": "open",
+      "target": "/admin/index.php?route=report/sale_order&token=eb8HJ9y0atKWWaEmDDFtjWWq7EQlBGR1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5eb49cd6-cc57-4706-a820-ed1eed63cf6a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "750x570",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "344f57d7-79bc-41eb-9088-1222ced56b5c",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-username",
+      "targets": [
+        ["id=input-username", "id"],
+        ["name=username", "name"],
+        ["css=#input-username", "css:finder"],
+        ["xpath=//input[@id='input-username']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3162a98-3f7f-47d7-8aef-fb20ebcd515c",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-username",
+      "targets": [
+        ["id=input-username", "id"],
+        ["name=username", "name"],
+        ["css=#input-username", "css:finder"],
+        ["xpath=//input[@id='input-username']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "de79d312-bcf8-46a1-86f6-bceed7650ebd",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e08ae62-9f9e-4b02-8331-9725a915f42a",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "admin@123"
+    }, {
+      "id": "394f343a-129d-432b-9b58-266e4778507a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcc38d9e-ac6b-43bf-afa9-985bb3350996",
+      "comment": "",
+      "command": "click",
+      "target": "css=#reports span",
+      "targets": [
+        ["css=#reports span", "css:finder"],
+        ["xpath=//li[@id='reports']/a/span", "xpath:idRelative"],
+        ["xpath=//li[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d5cbb60-760c-46e3-8b2c-595fba6aca51",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .parent",
+      "targets": [
+        ["css=li:nth-child(1) > .parent", "css:finder"],
+        ["xpath=//a[contains(text(),'Sales')]", "xpath:link"],
+        ["xpath=//li[@id='reports']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//li[9]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c8e2849-ae7e-4b30-ba83-66512f26ed43",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shipping",
+      "targets": [
+        ["linkText=Shipping", "linkText"],
+        ["css=.open:nth-child(1) li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Shipping')])[2]", "xpath:link"],
+        ["xpath=//li[@id='reports']/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://uniformm1.upskills.in/admin/index.php?route=report/sale_shipping&token=RRAow81cnZJc8xvyW5cxnql0sUoWPbhg']", "xpath:href"],
+        ["xpath=//li[9]/ul/li/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9f9ce0b3-73c7-47b2-b149-67e2b7eed76a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["65f1de64-c4fb-4e7f-8fb0-d0389179b4a4"]
+  }],
+  "urls": ["http://uniformm1.upskills.in/"],
+  "plugins": []
+}
