@@ -1,27 +1,27 @@
 {
-  "id": "5697beb1-1dec-4ff0-a7db-649508a71030",
+  "id": "73766d83-18d2-457c-9a84-0723594610dc",
   "version": "2.0",
   "name": "ShippingList",
-  "url": "http://uniformm1.upskills.in",
+  "url": "http://uniformm1.upskills.in/admin/index.php?route=common/dashboard&token=QbicLYD9hZPc0WpvLA81dXKFwj7Myv8t",
   "tests": [{
-    "id": "65f1de64-c4fb-4e7f-8fb0-d0389179b4a4",
+    "id": "ac1e3907-eb81-4f03-984a-b0dfe1aa3f8f",
     "name": "ShippingLogin",
     "commands": [{
-      "id": "74d91701-d786-4743-92e9-f2d1352c3518",
+      "id": "f3fc3e81-a9f7-4d06-804e-08f56c4754fe",
       "comment": "",
       "command": "open",
-      "target": "/admin/index.php?route=report/sale_order&token=eb8HJ9y0atKWWaEmDDFtjWWq7EQlBGR1",
+      "target": "http://uniformm1.upskills.in/admin/index.php?route=common/dashboard&token=QbicLYD9hZPc0WpvLA81dXKFwj7Myv8t",
       "targets": [],
       "value": ""
     }, {
-      "id": "5eb49cd6-cc57-4706-a820-ed1eed63cf6a",
+      "id": "95a48cc8-59da-42c5-aa55-4da7db8b82fe",
       "comment": "",
       "command": "setWindowSize",
-      "target": "750x570",
+      "target": "754x570",
       "targets": [],
       "value": ""
     }, {
-      "id": "344f57d7-79bc-41eb-9088-1222ced56b5c",
+      "id": "05a53af3-6ba0-4057-b18a-6a71c990d685",
       "comment": "",
       "command": "click",
       "target": "id=input-username",
@@ -35,7 +35,7 @@
       ],
       "value": ""
     }, {
-      "id": "c3162a98-3f7f-47d7-8aef-fb20ebcd515c",
+      "id": "378ece18-c15e-4a5f-ba5d-0cc4dcc0d898",
       "comment": "",
       "command": "type",
       "target": "id=input-username",
@@ -49,7 +49,7 @@
       ],
       "value": "admin"
     }, {
-      "id": "de79d312-bcf8-46a1-86f6-bceed7650ebd",
+      "id": "2179c359-1534-4691-b45f-f37025b1cd4d",
       "comment": "",
       "command": "click",
       "target": "id=input-password",
@@ -63,7 +63,7 @@
       ],
       "value": ""
     }, {
-      "id": "6e08ae62-9f9e-4b02-8331-9725a915f42a",
+      "id": "62d68929-7695-413c-a1bf-f77a004d7cb7",
       "comment": "",
       "command": "type",
       "target": "id=input-password",
@@ -77,7 +77,7 @@
       ],
       "value": "admin@123"
     }, {
-      "id": "394f343a-129d-432b-9b58-266e4778507a",
+      "id": "56437b36-d76d-496f-8be3-07f85ad50050",
       "comment": "",
       "command": "click",
       "target": "css=.btn",
@@ -85,24 +85,25 @@
         ["css=.btn", "css:finder"],
         ["xpath=//button[@type='submit']", "xpath:attributes"],
         ["xpath=//div[@id='content']/div/div/div/div/div[2]/form/div[3]/button", "xpath:idRelative"],
-        ["xpath=//button", "xpath:position"],
+        ["xpath=//div[3]/button", "xpath:position"],
         ["xpath=//button[contains(.,' Login')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "dcc38d9e-ac6b-43bf-afa9-985bb3350996",
+      "id": "9b9add4c-3d59-4292-864b-0a97000b198d",
       "comment": "",
       "command": "click",
-      "target": "css=#reports span",
+      "target": "linkText=Reports",
       "targets": [
-        ["css=#reports span", "css:finder"],
-        ["xpath=//li[@id='reports']/a/span", "xpath:idRelative"],
-        ["xpath=//li[9]/a/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Reports')]", "xpath:innerText"]
+        ["linkText=Reports", "linkText"],
+        ["css=#reports > .parent", "css:finder"],
+        ["xpath=//li[@id='reports']/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Reports')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "4d5cbb60-760c-46e3-8b2c-595fba6aca51",
+      "id": "1cb022ae-69cc-4fb6-bd7b-7b95f1efd5b3",
       "comment": "",
       "command": "click",
       "target": "css=li:nth-child(1) > .parent",
@@ -114,7 +115,7 @@
       ],
       "value": ""
     }, {
-      "id": "0c8e2849-ae7e-4b30-ba83-66512f26ed43",
+      "id": "44997a4a-436f-40c9-8d17-916323ac27a8",
       "comment": "",
       "command": "click",
       "target": "linkText=Shipping",
@@ -123,20 +124,20 @@
         ["css=.open:nth-child(1) li:nth-child(3) > a", "css:finder"],
         ["xpath=(//a[contains(text(),'Shipping')])[2]", "xpath:link"],
         ["xpath=//li[@id='reports']/ul/li/ul/li[3]/a", "xpath:idRelative"],
-        ["xpath=//a[@href='http://uniformm1.upskills.in/admin/index.php?route=report/sale_shipping&token=RRAow81cnZJc8xvyW5cxnql0sUoWPbhg']", "xpath:href"],
+        ["xpath=//a[@href='http://uniformm1.upskills.in/admin/index.php?route=report/sale_shipping&token=AwAR17ySK0HvfKM0wCAV6Skj0GzApRIf']", "xpath:href"],
         ["xpath=//li[9]/ul/li/ul/li[3]/a", "xpath:position"]
       ],
       "value": ""
     }]
   }],
   "suites": [{
-    "id": "9f9ce0b3-73c7-47b2-b149-67e2b7eed76a",
+    "id": "d34e1111-0f9c-492a-a949-6d5ad4491ba8",
     "name": "Default Suite",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["65f1de64-c4fb-4e7f-8fb0-d0389179b4a4"]
+    "tests": []
   }],
-  "urls": ["http://uniformm1.upskills.in/"],
+  "urls": ["http://uniformm1.upskills.in/", "http://uniformm1.upskills.in/admin/index.php?route=common/dashboard&token=QbicLYD9hZPc0WpvLA81dXKFwj7Myv8t"],
   "plugins": []
 }
